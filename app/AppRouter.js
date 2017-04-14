@@ -4,8 +4,8 @@ import {
   Route
 } from 'react-router-dom'
 
-import SomeComponent from './components/SomeComponent.js'
-import MapStates from './components/map/MapStates.js'
+import SomeComponent from './components/SomeComponent'
+import MapContainer from './components/map/MapContainer'
 
 export default class AppRouter extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ export default class AppRouter extends React.Component {
       <Router>
         <div>
           <Route exact path="/" component={SomeComponent}/>
-          <Route exact path="/map-states" component={MapStates}/>
+          <Route exact path="/map-states" component={MapContainer}/>
         </div>
       </Router>
     );
