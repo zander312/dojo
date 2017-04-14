@@ -1,0 +1,27 @@
+.UsMap {
+	:global{
+		path, circle {
+			stroke-linejoin: round;
+			fill: #C3BABA !important;
+			cursor: pointer;
+		}
+
+		path:hover, circle:hover {
+			stroke-linejoin: round;
+			fill: #736F72 !important;
+			cursor: pointer;
+		}
+	}
+}
+
+.dataDisplay {
+	display: inline-block;
+	position: fixed;
+	font-family: Verdana;
+	width: 100px;
+	padding: 4px;
+	background-color: #E9E3E6;
+	border: 2px solid #736F72;
+	border-radius: 4px;
+	word-wrap: break-word;
+}
