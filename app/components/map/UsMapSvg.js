@@ -1,12 +1,6 @@
 import React from 'react';
 
 export default class MapSvg extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {animals: ''};
-  }
-
-
 
   render() {
     return (

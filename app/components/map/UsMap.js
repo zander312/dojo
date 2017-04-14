@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './UsMap.scss';
 import axios from 'axios';
 
-import MapSvg from "./MapSvg"
+import UsMapSvg from "./UsMapSvg"
 
 export default class UsMap extends React.Component {
   constructor(props) {
@@ -57,7 +57,7 @@ export default class UsMap extends React.Component {
           this._displayDataBox()
           : null 
         }
-        <MapSvg 
+        <UsMapSvg 
           handleMouseOver={(e) => {this._handleMouseOver(e)}}
           handleMouseMove={(e) => {this._handleMouseMove(e)}}
           className={styles.UsMap}

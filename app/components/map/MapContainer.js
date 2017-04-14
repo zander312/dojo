@@ -13,9 +13,7 @@ export default class MapContainer extends React.Component {
   componentWillMount(){
     this.setState({mapData: mapDataJson})
     console.log(this.state.mapData)
-    
   }
-
 
   render() {
     return (
